@@ -1,0 +1,198 @@
+:root {
+    --bg: rgb(31,37,89);
+    --light: rgb(173, 109, 170);
+    --text: lightgray;
+    --main: rgb(141, 131, 212);
+    --hover: rgb(80, 253, 80);
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header {
+    padding-top: 50px;
+    color: var(--bg);
+    float: left;
+    font-size: 60px;
+    font-style: italic;
+    text-shadow: 3px 3px 5px var(--bg);
+    text-decoration: underline;
+}
+
+nav {
+    display: flex;
+    background-color: var(--bg);
+    justify-content: end;
+    text-align: center;
+}
+
+nav a {
+    color: var(--text);
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+h2 {
+    text-decoration: underline;
+}
+aside {
+    flex: 1;
+    background-color: var(--bg);
+    padding: 20px;
+    color: var(--text);
+    text-align: center;
+    flex-direction: column;
+    border: thick solid var(--main) ;
+}
+
+section {
+    flex: 3;
+    background-color: var(--text);
+    padding: 20px;
+}
+
+.aside {
+    width: 400px;
+    height: 600px;
+    border: thick solid black;
+}
+
+#my-image {
+    width: 400px;
+    padding: 20px;
+    height: 400px;
+}
+
+footer {
+    width: 100%;
+    bottom: 0;
+    padding: 20px;
+    margin-top: 0px;
+    background-color: var(--bg);
+}
+
+.image {
+    background-image: url(https://www.freewebheaders.com/wp-content/gallery/other-backgrounds/purple-lonely-chair-website-header-design.jpg);
+    height: 250px;
+}
+
+#contact {
+    background-image: url(https://www.freewebheaders.com/wp-content/gallery/other-backgrounds/purple-lonely-chair-website-header-design.jpg);
+    height: 80px;
+}
+
+.box {
+    border: thick solid var(--bg);
+    width: 140px;
+    height: 60px;
+    font-size: 24px;
+    margin-top: auto;
+}
+
+.led-section {
+    border: solid var(--main);
+    border-width: thick;
+    width: 50%;
+    text-align: center;
+    padding: 80px;
+    background-color: var(--text);
+}
+
+.led-section:hover {
+    opacity: 0.5s;
+    cursor: pointer;
+    box-shadow: 10px var(--hover)
+}
+
+#led-header {
+    color: black;
+}
+
+#led-caption {
+    color: black;
+    background-color: var(--light);
+}
+
+
+.pastel-section {
+    border: solid var(--main);
+    border-width: thick;
+    width: 50%;
+    text-align: center;
+    padding: 80px;
+    background-color: var(--text);
+}
+
+.pastel-section:hover {
+    opacity: 0.5s;
+    cursor: pointer;
+    box-shadow: 100px var(--light)
+}
+
+#pastel-header {
+    color: black;
+}
+
+#pastel-caption {
+    color: black;
+    background-color: var(--light);
+}
+
+.run-section {
+    border: solid var(--main);
+    border-width: thick;
+    width: 50%;
+    text-align: center;
+    padding: 80px;
+    background-color: var(--text);
+}
+
+.run-section:hover {
+    opacity: 0.5s;
+    cursor: pointer;
+    box-shadow: 4px var(--light);
+}
+
+#run-header {
+    color: black;
+}
+
+#run-caption {
+    color: black;
+    background-color: var(--light);
+}
+
+.surf-section {
+    border: solid var(--main);
+    border-width: thick;
+    width: 50%;
+    text-align: center;
+    padding: 80px;
+    background-color: lightgray;
+}
+
+.surf-section:hover {
+    opacity: 0.5s;
+    cursor: pointer;
+    box-shadow: 10px var(--hover);
+}
+
+#surf-header {
+    color: black;
+}
+
+#surf-caption {
+    color: black;
+    background-color: var(--light);
+}
+
