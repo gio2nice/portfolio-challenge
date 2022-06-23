@@ -1,3 +1,4 @@
+/*root to all colors i've used in this application*/
 :root {
     --bg: rgb(31,37,89);
     --light: rgb(173, 109, 170);
@@ -5,20 +6,21 @@
     --main: rgb(141, 131, 212);
     --hover: rgb(80, 253, 80);
 }
+/*creates border-box for entire page*/
 * {
     box-sizing: border-box;
 }
-
+/*keeps all body with same font-family*/
 body {
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
-
+/*displays the main tag as flex*/
 main {
     display: flex;
     flex-wrap: wrap;
 }
-
+/*Changes headers color, font-size, style and text-decoration*/
 .header {
     padding-top: 50px;
     color: var(--bg);
@@ -28,77 +30,68 @@ main {
     text-shadow: 3px 3px 5px var(--bg);
     text-decoration: underline;
 }
-
+/*adjusts items in nav*/
 nav {
     display: flex;
     background-color: var(--bg);
     justify-content: end;
     text-align: center;
 }
-
+/*adjusts text*/
 nav a {
     color: var(--text);
     padding: 14px 20px;
     text-decoration: none;
 }
-
+/*adds underline for h2 text*/
 h2 {
     text-decoration: underline;
 }
+/*creates & edit container border around the whole aside*/
 aside {
     flex: 1;
     background-color: var(--bg);
-    padding: 20px;
+    padding: 2px;
     color: var(--text);
     text-align: center;
     flex-direction: column;
-    border: thick solid var(--main) ;
+    border: thick solid black ;
 }
-
+/*adds padding and background-color for boxes section*/
 section {
     flex: 3;
     background-color: var(--text);
     padding: 20px;
 }
-
+/*changing box size*/
 .aside {
     width: 400px;
     height: 600px;
-    border: thick solid black;
 }
-
+/*changes image size inside aside box*/
 #my-image {
     width: 400px;
     padding: 20px;
     height: 400px;
 }
-
+/*adjusts footer width and padding*/
 footer {
     width: 100%;
     bottom: 0;
-    padding: 20px;
+    padding: 0px;
     margin-top: 0px;
-    background-color: var(--bg);
 }
-
+/*links header image*/
 .image {
     background-image: url(https://www.freewebheaders.com/wp-content/gallery/other-backgrounds/purple-lonely-chair-website-header-design.jpg);
     height: 250px;
 }
-
+/*links footer image*/
 #contact {
     background-image: url(https://www.freewebheaders.com/wp-content/gallery/other-backgrounds/purple-lonely-chair-website-header-design.jpg);
     height: 80px;
 }
-
-.box {
-    border: thick solid var(--bg);
-    width: 140px;
-    height: 60px;
-    font-size: 24px;
-    margin-top: auto;
-}
-
+/*adjust/edit section container*/
 .led-section {
     border: solid var(--main);
     border-width: thick;
@@ -107,23 +100,23 @@ footer {
     padding: 80px;
     background-color: var(--text);
 }
-
+/*sets opacity & box-shadow in section*/
 .led-section:hover {
     opacity: 0.5s;
     cursor: pointer;
     box-shadow: 10px var(--hover)
 }
-
+/*sets header text color black*/
 #led-header {
     color: black;
 }
-
+/*sets text color black & background of box inside pink*/
 #led-caption {
     color: black;
     background-color: var(--light);
 }
 
-
+/*adjust/edit section container*/
 .pastel-section {
     border: solid var(--main);
     border-width: thick;
@@ -132,22 +125,22 @@ footer {
     padding: 80px;
     background-color: var(--text);
 }
-
+/*sets opacity & box-shadow in section*/
 .pastel-section:hover {
     opacity: 0.5s;
     cursor: pointer;
     box-shadow: 100px var(--light)
 }
-
+/*sets header text color black*/
 #pastel-header {
     color: black;
 }
-
+/*sets text color black & background of box inside pink*/
 #pastel-caption {
     color: black;
     background-color: var(--light);
 }
-
+/*adjust/edit section container*/
 .run-section {
     border: solid var(--main);
     border-width: thick;
@@ -156,22 +149,22 @@ footer {
     padding: 80px;
     background-color: var(--text);
 }
-
+/*sets opacity & box-shadow in section*/
 .run-section:hover {
     opacity: 0.5s;
     cursor: pointer;
     box-shadow: 4px var(--light);
 }
-
+/*sets header text color black*/
 #run-header {
     color: black;
 }
-
+/*sets text color black & background of box inside pink*/
 #run-caption {
     color: black;
     background-color: var(--light);
 }
-
+/*adjust/edit section container*/
 .surf-section {
     border: solid var(--main);
     border-width: thick;
@@ -180,17 +173,17 @@ footer {
     padding: 80px;
     background-color: lightgray;
 }
-
+/*sets opacity & box-shadow in section*/
 .surf-section:hover {
     opacity: 0.5s;
     cursor: pointer;
     box-shadow: 10px var(--hover);
 }
-
+/*sets header text color black*/
 #surf-header {
     color: black;
 }
-
+/*sets text color black & background of box inside pink*/
 #surf-caption {
     color: black;
     background-color: var(--light);
