@@ -10,7 +10,7 @@ The following link demonstrates my website(https://gio2nice.github.io/portfolio-
  My application gives you information about "Giovanni", his contact and project experiences. i applied aside section to be able to add on an image of myself without having to position every box. The main problem i faced was not being able to clearly see the hover color over the boxes & it still does not show.
 
 ## Screenshot
-Screenshot of the application (./images/header.jpg)
+Screenshot of the application (portfolio-challenge/images/Image 6-23-22 at 3.54 PM.jpg)
 
 ## License
 [MIT](MIT License
